@@ -7,7 +7,7 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-import ExperienceCard from "./ExperienceCard";
+import ExperienceCard from "./cards/ExperienceCard";
 
 const Experience = () => {
   return (

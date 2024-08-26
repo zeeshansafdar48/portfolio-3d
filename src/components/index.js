@@ -7,8 +7,10 @@ import Experience from "./Experience";
 import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
-import ServiceCard from "./ServiceCard";
-import ExperienceCard from "./ExperienceCard";
+import ServiceCard from "./cards/ServiceCard";
+import ExperienceCard from "./cards/ExperienceCard";
+import ProjectCard from "./cards/ProjectCard";
+import FeedbackCard from "./cards/FeedbackCard";
 
 export {
   Hero,
@@ -24,5 +26,7 @@ export {
   ComputersCanvas,
   StarsCanvas,
   ServiceCard,
-  ExperienceCard
+  ExperienceCard,
+  ProjectCard,
+  FeedbackCard
 };

@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 import { Tilt } from "react-tilt";
-import { fadeIn } from "../utils/motion";
+import { fadeIn } from "../../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
