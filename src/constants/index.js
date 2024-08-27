@@ -126,9 +126,7 @@ const experiences = [
     date: "Nov 2018 - Feb 2021",
     points: [
       "Full-Stack Development: Proficient in full-stack software development using React JS and Node JS, with involvement in various projects to meet client requirements.",
-
       "Agile Methodology: Experienced in working within a Scrum/Agile environment, including planning, estimating, and managing work at different levels (story, sprint, release).",
-
       "Team Leadership and Training: Engaged in team leadership activities such as conducting monthly performance reviews, setting objectives, and training interns on JavaScript and React JS."
     ]
   },
