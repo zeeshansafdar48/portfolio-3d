@@ -23,6 +23,9 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
+import systems from "./company/SystemsLogo-01.svg";
+import starzon from "./company/starzon.png";
+import gsoft from "./company/gsoft.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  systems,
+  starzon,
+  gsoft
 };

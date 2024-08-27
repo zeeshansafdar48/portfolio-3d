@@ -15,10 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  gsoft,
+  systems,
+  starzon,
   carrent,
   jobit,
   tripguide,
@@ -33,6 +32,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work"
+  },
+  {
+    id: "projects",
+    title: "Projects"
   },
   {
     id: "contact",
@@ -116,55 +119,47 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers."
-    ]
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer (React.js | Node.js)",
+    company_name: "Global Software Consulting",
+    icon: gsoft,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2018 - Feb 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers."
+      "Full-Stack Development: Proficient in full-stack software development using React JS and Node JS, with involvement in various projects to meet client requirements.",
+
+      "Agile Methodology: Experienced in working within a Scrum/Agile environment, including planning, estimating, and managing work at different levels (story, sprint, release).",
+
+      "Team Leadership and Training: Engaged in team leadership activities such as conducting monthly performance reviews, setting objectives, and training interns on JavaScript and React JS."
     ]
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers."
-    ]
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer (React.js | Node.js)",
+    company_name: "Systems Limited",
+    icon: systems,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Feb 2021 - Apr 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers."
+      "Worked as a React JS developer on an Ecommerce Product using Microsoft Dynamics 365 Commerce",
+      "Mainly worked on JS Heap Snapshot, debugging code, solving problems using JavaScript",
+      "Successfully built software products for the company using Agile methodologies",
+      "Ensured code quality of the team and introduced best practices in the team",
+      "Communicating with QAs to ensure clients' requirements before going to Production",
+      "Unit Testing of the Product in live environments",
+      "Take part in Sprint Plannings, Sprint Reviews",
+      "Use Azure Dev Ops for Project management",
+      "Carried out tasks and produced required results with minimal supervision"
+    ]
+  },
+  {
+    title: "Senior Software Engineer",
+    company_name: "Starzplay",
+    icon: starzon,
+    iconBg: "#383E56",
+    date: "May 2022 - Present",
+    points: [
+      "Collaborated with the UI/UX design teams to improve and rebrand the website and application, increasing conversion rates by 25%",
+      "Participate in meetings, brainstorming sessions, and sprint planning to contribute ideas and insights",
+      "Created payment flows on TV and embedded the information in a QR code by scanning the code user was redirected to the respective payment page"
     ]
   }
 ];
