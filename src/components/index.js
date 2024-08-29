@@ -11,6 +11,7 @@ import ServiceCard from "./cards/ServiceCard";
 import ExperienceCard from "./cards/ExperienceCard";
 import ProjectCard from "./cards/ProjectCard";
 import FeedbackCard from "./cards/FeedbackCard";
+import SocialIcon from "./SocialIcon";
 
 export {
   Hero,
@@ -28,5 +29,6 @@ export {
   ServiceCard,
   ExperienceCard,
   ProjectCard,
-  FeedbackCard
+  FeedbackCard,
+  SocialIcon
 };

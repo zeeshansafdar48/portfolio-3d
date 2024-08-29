@@ -23,6 +23,13 @@ import {
   tripguide,
   threejs
 } from "../assets";
+import {
+  BsGithub,
+  BsLinkedin,
+  BsFillTelephoneFill,
+  BsGoogle,
+  BsPencilSquare
+} from "react-icons/bs";
 
 export const navLinks = [
   {
@@ -255,4 +262,32 @@ const projects = [
   }
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const socialLinks = [
+  {
+    icon: BsGoogle,
+    type: "email",
+    info: "zeeshan7826@gmail.com"
+  },
+  {
+    icon: BsLinkedin,
+    type: "link",
+    link: "https://www.linkedin.com/in/zeeshan-safdar-dev/"
+  },
+  {
+    icon: BsFillTelephoneFill,
+    type: "phone",
+    info: "+923041479340"
+  },
+  {
+    icon: BsGithub,
+    type: "link",
+    link: "https://github.com/zeeshansafdar48"
+  },
+  {
+    icon: BsPencilSquare,
+    type: "link",
+    link: "https://zeeshansafdar.hashnode.dev/"
+  }
+];
+
+export { services, technologies, experiences, testimonials, projects, socialLinks };

@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import SocialIcon from "./SocialIcon";
+import { socialLinks } from "../constants";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -46,6 +48,12 @@ const Navbar = () => {
             <span className="sm:block hidden"> </span>
           </p>
         </Link>
+
+        <div className="hidden md:flex gap-8 text-lg">
+          {socialLinks.map((link) => (
+            <SocialIcon key={link.id} {...link} />
+          ))}
+        </div>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
