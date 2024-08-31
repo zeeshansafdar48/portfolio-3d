@@ -21,7 +21,8 @@ import {
   starzplay,
   mattressfirm,
   mostlypaws,
-  nextjs
+  nextjs,
+  cryptoversy
 } from "../assets";
 import {
   BsGithub,
@@ -259,6 +260,27 @@ const projects = [
     ],
     image: mostlypaws,
     source_code_link: "https://mostly-paws.netlify.app/"
+  },
+  {
+    name: "Cryptoversy",
+    description:
+      "Cryptoversy is a Cryptocurrency news website that provides the latest news about Bitcoin, Ethereum, and other cryptocurrencies. The website is built using React.js and Node.js.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "node js",
+        color: "green-text-gradient"
+      },
+      {
+        name: "antd",
+        color: "pink-text-gradient"
+      }
+    ],
+    image: cryptoversy,
+    source_code_link: "https://cryptoversy.netlify.app/"
   }
 ];
 

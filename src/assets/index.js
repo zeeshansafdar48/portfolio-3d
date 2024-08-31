@@ -36,6 +36,7 @@ import tripguide from "./tripguide.png";
 import starzplay from "./starzplay.jpeg";
 import mattressfirm from "./mattressfirm.jpeg";
 import mostlypaws from "./mostlypaws.png";
+import cryptoversy from "./cryptoversy.png";
 
 export {
   logo,
@@ -72,5 +73,6 @@ export {
   starzplay,
   mattressfirm,
   mostlypaws,
-  nextjs
+  nextjs,
+  cryptoversy
 };
