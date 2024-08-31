@@ -18,10 +18,10 @@ import {
   gsoft,
   systems,
   starzon,
-  threejs,
   starzplay,
   mattressfirm,
-  mostlypaws
+  mostlypaws,
+  nextjs
 } from "../assets";
 import {
   BsGithub,
@@ -64,7 +64,7 @@ const services = [
     icon: backend
   },
   {
-    title: "Frontend Developer",
+    title: "Next.js",
     icon: creator
   }
 ];
@@ -91,6 +91,10 @@ const technologies = [
     icon: reactjs
   },
   {
+    name: "Next js",
+    icon: nextjs
+  },
+  {
     name: "Redux Toolkit",
     icon: redux
   },
@@ -105,10 +109,6 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb
-  },
-  {
-    name: "Three JS",
-    icon: threejs
   },
   {
     name: "git",
@@ -224,7 +224,7 @@ const projects = [
       "MattressFirm.com is wholly owned and operated by Mattress Firm, Inc., 10201 S. Main St. Houston, TX. An E-commerce websites for House hold things like Mattresses, Bedding, Furniture & More.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient"
       },
       {
@@ -245,7 +245,7 @@ const projects = [
       "This is a single page static website for showing love with dogs and are committed to mission to raise funds for animals in need. Mainly for making new cool stuff for pet lovers. Also take pride in creating cool merchandise for dog lovers, Always wanted to do something in return for our furry friends.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient"
       },
       {
