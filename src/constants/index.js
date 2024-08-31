@@ -18,10 +18,10 @@ import {
   gsoft,
   systems,
   starzon,
-  carrent,
-  jobit,
-  tripguide,
-  threejs
+  threejs,
+  starzplay,
+  mattressfirm,
+  mostlypaws
 } from "../assets";
 import {
   BsGithub,
@@ -198,37 +198,37 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "STARZPLAY",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "STARZPLAY is a subscription video on demand (SVOD) service that streams thousands of blockbuster Hollywood movies, TV shows, documentaries, kid's entertainment and same-day-as-the-US series – plus dedicated Arabic and Bollywood content – to 19 countries across the Middle East and North Africa.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient"
       },
       {
-        name: "mongodb",
+        name: "node js",
         color: "green-text-gradient"
       },
       {
-        name: "tailwind",
+        name: "styled-components",
         color: "pink-text-gradient"
       }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/"
+    image: starzplay,
+    source_code_link: "https://starzon.com/"
   },
   {
-    name: "Job IT",
+    name: "MattressFirm",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "MattressFirm.com is wholly owned and operated by Mattress Firm, Inc., 10201 S. Main St. Houston, TX. An E-commerce websites for House hold things like Mattresses, Bedding, Furniture & More.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient"
       },
       {
-        name: "restapi",
+        name: "typescript",
         color: "green-text-gradient"
       },
       {
@@ -236,20 +236,20 @@ const projects = [
         color: "pink-text-gradient"
       }
     ],
-    image: jobit,
-    source_code_link: "https://github.com/"
+    image: mattressfirm,
+    source_code_link: "https://www.mattressfirm.com/"
   },
   {
-    name: "Trip Guide",
+    name: "Mostly Paws",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a single page static website for showing love with dogs and are committed to mission to raise funds for animals in need. Mainly for making new cool stuff for pet lovers. Also take pride in creating cool merchandise for dog lovers, Always wanted to do something in return for our furry friends.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient"
       },
       {
-        name: "supabase",
+        name: "node js",
         color: "green-text-gradient"
       },
       {
@@ -257,8 +257,8 @@ const projects = [
         color: "pink-text-gradient"
       }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/"
+    image: mostlypaws,
+    source_code_link: "https://mostly-paws.netlify.app/"
   }
 ];
 

@@ -32,6 +32,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import starzplay from "./starzplay.jpeg";
+import mattressfirm from "./mattressfirm.jpeg";
+import mostlypaws from "./mostlypaws.png";
 
 export {
   logo,
@@ -64,5 +67,8 @@ export {
   tripguide,
   systems,
   starzon,
-  gsoft
+  gsoft,
+  starzplay,
+  mattressfirm,
+  mostlypaws
 };
